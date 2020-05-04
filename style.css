@@ -1,0 +1,94 @@
+/* i used the CSS link for Zen Garden as the base of this */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: black;
+	background: #fff url(sky.jpg) bottom right;
+	margin: 0;
+	padding: 0;
+	}
+title {
+	text-align: justify;
+	font: bold 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: white;
+	position: absolute top center;
+
+}
+header {
+	background: #fff url(desert2.jpg) top center;
+	color: white;
+	position: center;
+	height: auto;
+}
+}
+p {
+	margin-top: 0;
+	text-align: justify;
+	}
+h3 {
+	font: bold normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	color: black;
+	}
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: blue;
+	}
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: purple;
+	}
+a:hover, a:focus, a:active {
+	text-decoration: underline;
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+
+.summary {
+	clear: both;
+	margin: 20px 20px 20px 10px;
+	width: 160px;
+	float: left;
+	}
+.summary p {
+	font: italic 1.1em/2.2 georgia;
+	text-align: center;
+	}
+
+.preamble {
+	clear: right;
+	padding: 0px 10px 0 10px;
+	}
+.supporting {
+	padding-left: 10px;
+	margin-bottom: 40px;
+	}
+
+footer {
+	background-color: black;
+	text-align: center;
+	border-width: thick;
+	}
+footer a:link, footer a:visited {
+	margin: 40px;
+	}
+.sidebar h3 {
+	color: white;
+}
+.sidebar {
+		color: white;
+		background: url(sky.jpg);
+	}
